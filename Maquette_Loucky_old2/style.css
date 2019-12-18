@@ -1,0 +1,264 @@
+body {
+    color:#7a7a7a;
+    background-image:url(bg.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 0px;
+    
+  
+}
+
+#menu{
+  
+height: 60px;
+width: 1020px;
+
+background-color:black;
+margin:  auto;
+text-align:center;
+font-family: 'Josefin Sans';
+}
+
+#menu ul {
+    list-style-type: none;
+   margin: 0;
+  }
+  
+#menu li {
+    display:inline-block;
+  }
+
+  
+#menu  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  #menu .active {
+    color:#cfa205;
+  }
+  
+
+#creatpro{
+height: 320px;
+width: 1020px;
+background-color:black;
+color: #cfa205;
+font-family: 'Josefin Sans';
+font-size: 133px;
+margin: 0 auto;
+display: table;
+
+}
+
+#creatpro span{
+    vertical-align: middle;
+    display: table-cell;
+
+}
+
+#creatpro span #soustitre{
+    font-family: 'Bitter';
+    font-size: 18px;
+
+}
+
+#com{
+    height: 60px;
+    width: 1020px;
+    background-color: #e8e8e8;
+    margin: auto;
+}
+
+#com .clip {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  #com .svg--source {
+    display: none
+  }
+  
+  #com .svg--icon {
+   
+    max-width: 2rem;
+    height: 100%;
+    max-height: 2rem;
+    display: block;
+    margin: 0 auto;
+    fill: currentColor
+  }
+  
+  #com .wrapper {
+    height: 100vh;
+    display:inline-block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  
+  #com .share {
+    width: 3rem;
+    height: 3srem;
+    float: left;
+    margin: .3rem 1rem .3rem 0;
+    color: #353c4a;
+    border: .125rem solid #f3f3f3;
+    box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+    border-radius: 50%;
+    transition: 250ms;
+  
+   
+  }
+  
+  #text1{
+    margin: auto;
+    padding: 60px 60px;
+    height: 90px;
+    width: 900px;
+    background-color:white;
+    color: #7a7a7a;
+    text-align:center;
+    font-family:  'Bitter';
+    font-size: 18px; 
+  }
+
+  #colonnes{
+    height: 480px;
+    width: 900px;
+    padding: 60px 60px;
+   background-color: white;
+    font-family:  'Bitter';
+   font-size: 14px;
+   margin: auto; 
+  }
+
+
+.img{
+  height: 195px;
+  width: 260px;
+}
+
+
+
+
+@media screen and (min-width: 780px)
+{
+
+section
+{
+
+    -webkit-column-count:3; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3; /* Internet Explorer */
+    -webkit-column-width:260; /* Opera, Safari, Google Chrome */
+    -moz-column-width: 260; /* Firefox */
+    column-width: 260; /* Internet Explorer */
+  text-align: justify;
+
+
+  -webkit-column-gap: 60px;
+    -moz-column-gap: 60px;
+    column-gap: 60px;
+ 
+}
+}
+@media screen and (max-width: 780px)
+{
+    #menu
+    {
+      font-size: 3vw;
+      margin:  auto;
+      text-align:center;
+        width: 50%;
+       
+        
+    }
+
+    #creatpro
+    {
+     
+     font-size: 12vw;
+        width: 90%;
+          text-align: center;
+       
+         
+      
+    }
+  
+    
+    #creatpro span #soustitre{ 
+       
+      font-size: 3vw;
+      width: 90%;
+      text-align: center; 
+    
+  
+    }
+
+
+    #com{   
+      width: 90%;
+      
+      margin:  auto;
+      text-align:center;}
+
+      #com .svg--icon {
+   
+        max-width: 1rem;
+        height: 100%;
+        max-height: 1rem;
+        display: block;
+        margin: 0 auto;
+        fill: currentColor
+      }
+      
+      #com .wrapper {
+        height: 100vh;
+        display:inline-block;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+      }
+
+      #com .share {
+        width: 2.25rem;
+        height: 2.25srem;
+        float: left;
+        margin: .3rem 1rem .3rem 0;
+        color: #353c4a;
+        border: .125rem solid #f3f3f3;
+        box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+        border-radius: 50%;
+        transition: 250ms;}
+
+      #text1{
+        width: 80%;
+        padding: 5%;
+        font-size: 2.5vw;
+       }
+
+      
+ #colonnes  {
+        width: 80%;
+        padding: 5%;
+        height: 150%;
+        font-size: 3vw;
+       }
+
+      
+}
+
+

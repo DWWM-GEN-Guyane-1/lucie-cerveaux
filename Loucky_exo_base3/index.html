@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <script type="text/javascript" src="monscript.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>EX1</title>
+</head>
+<body>
+        
+        <img src="img/image1JS.jpg" id="image1JS" onmouseover="sayHello()" onmouseout="nelo()"/>
+        
+        <script type="text/javascript">
+            function sayHello() {
+                var boyElement = document.getElementById("image1JS");
+                boyElement.style.border = "3px solid red";
+            }
+        
+
+         
+            function nelo() { 
+                 var boyElement = document.getElementById("image1JS");
+                boyElement.style.border = "";
+            }
+        </script>
+
+</body>
+</html>

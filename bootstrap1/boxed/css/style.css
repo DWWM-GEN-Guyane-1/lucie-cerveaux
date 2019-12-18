@@ -1,0 +1,49 @@
+#menu{
+    padding: 0 10%;
+
+}
+
+#nav-content li a{
+    color: blue;
+}
+
+#projectname{
+    color: rgb(105, 104, 104);
+    font-size: 1.5rem;
+}
+.active{
+    color: white !important;
+    background-color: blue;
+    border-radius: 0.2rem;
+}
+
+.nav-item{
+    margin:0.7rem 0.4rem ;
+}
+
+hr  {
+    margin: auto  10%;
+}
+
+.jumbotron
+{margin:2% 10% ;
+text-align: center;
+}
+
+.container {
+    padding:1% 5%;
+
+
+}
+
+.jumbotron .btn{
+    background-color: rgb(64, 172, 64);
+    border-color:rgb(64, 172, 64);
+    padding: 0.75rem;
+}
+
+.footer-copyright{
+    margin:2% 10% ;
+    color: grey;
+}
+

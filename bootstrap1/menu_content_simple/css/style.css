@@ -1,0 +1,23 @@
+#menu{
+    background-color:rgb(34, 34, 36);
+    padding: 0% 20%;
+
+}
+
+#projectname, #nav-content li a{
+    color: gray;
+}
+
+.active{
+    color: white !important;
+    background-color: black;
+}
+
+#texte_titre{
+margin: 2rem auto 0 0 ;
+
+}
+#texte{
+    margin: -1rem auto;
+    text-align: center;
+}

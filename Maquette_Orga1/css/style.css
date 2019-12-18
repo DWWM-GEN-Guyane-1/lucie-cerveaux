@@ -1,0 +1,127 @@
+body, html {
+    height: 100%;
+
+}    
+
+
+#nav-content li a{
+    color: white;
+}
+
+
+ 
+img {
+opacity: 0.2;
+   
+  
+    height: 100%;
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+        
+}
+    
+   
+  
+#Orga{
+    color:white;}
+
+
+#nic{
+    color:blue;
+    
+}
+
+.nav-item{
+    margin:auto 2rem ;
+}
+ 
+
+
+#text {
+    color: white;
+    text-align: center;
+    padding: 20rem 20rem;
+    
+}
+.btn{
+    background-color: rgb(128, 125, 125);
+    color:white;
+}
+
+
+#text_titre1{
+    color: black;
+    text-align: center;
+    margin: 3rem 1rem 0 0;
+}
+
+#text1{
+    color:gray;
+    text-align: center;
+    
+}
+
+
+.row{
+    padding:  5rem 5rem;
+    
+}
+
+.card-title{
+color: black;
+text-align: center;
+}
+
+.card-text{
+    color: gray;
+    text-align: center;
+}
+
+.fa
+{position: absolute;
+top:-10px;
+left: 100px;
+height: 20px;
+width: 120px;
+background-color: white;
+border: 2px solid white;
+text-align: center;
+color: blue;}
+
+
+#new {
+    opacity: 2.5;
+       
+      
+        height: 50%;
+    
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background: 30% 100%;
+            
+    }
+        
+    .row{
+        padding:  5rem 5rem;
+    }
+
+    #tex{
+        color: white;
+    }
+
+#text_titre2{
+    color: black;
+    text-align: center;
+    margin: 5rem 2rem 2rem 0;
+}
+
+#text2{
+    color: gray;
+    text-align: center;
+}

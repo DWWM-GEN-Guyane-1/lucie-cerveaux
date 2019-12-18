@@ -1,0 +1,28 @@
+
+
+#texte_titre{
+color:rgb(167, 162, 162);
+margin: 3% auto ;
+
+}
+
+.container-fluid{
+    background-color: rgb(28, 28, 173);
+    color: white;
+    padding: 3% 0 0 0;
+  
+}
+ #cardcol{
+
+    background-color: rgb(245, 241, 241);
+ 
+    margin: -1.5% 0 ;
+ }
+
+ #cardcol .row .col{
+      margin: 2% 5%;
+ }
+
+ .container{
+     padding: 3% 0;
+ }

@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+
+img{
+        opacity: 0.2;
+              
+
+
+#card-text {
+    color: white;
+    text-align: ;
+    padding: 20rem auto; 
+    
+}
+
+.row{
+    margin-block:  25rem 25rem;
+}
+
+.btn{
+    background-color: rgb(128, 125, 125);
+    color:white;
+}

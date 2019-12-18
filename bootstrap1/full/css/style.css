@@ -1,0 +1,27 @@
+#projectname{
+    margin: auto 11%;
+    color: gray;
+}
+
+#buttonsignin{
+    background-color: rgb(57, 194, 57);
+    color: white;
+    border: none;
+}
+
+#titre{
+    padding: 3% 11%;
+    background-color: rgb(241, 233, 233);
+}
+
+.container{
+    margin: 2% 11%;
+}
+
+.container .btn{
+    color: black;
+}
+
+footer{
+    margin: 2% 11%;
+}

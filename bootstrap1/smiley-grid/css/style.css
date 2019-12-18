@@ -1,0 +1,23 @@
+
+.container{
+    
+    background-color: rgb(236, 231, 231);
+    text-align: center;
+   
+}
+
+.col, .col-md-12, .col-xs-12
+{border:0.05rem solid rgb(202, 195, 195) ;
+
+}
+#texte_titre{
+   
+    color:rgb(202, 195, 195);
+}
+
+.far{
+    margin: 0.5rem auto;
+    color: rgb(202, 195, 195);
+ font-size: 4rem;
+ 
+}
