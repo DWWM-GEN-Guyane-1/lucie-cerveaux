@@ -18,7 +18,7 @@
 
             <!-- zone de connexion -->
             
-            <form action="index.html"  method="post" >
+            <form action="index.php"  method="post" >
 
                 <h1>Connexion</h1>
                 
