@@ -33,7 +33,7 @@ $db = mysqli_connect("localhost","root","","formulaire")  or die('Erreur de conn
 
     
     // on écrit la requête sql
-    $sql = "INSERT INTO new_table(nom, prenom,email, icq, titre, url) VALUES('$nom','$prenom','$email','$icq','$titre','$url')";
+    $sql = "INSERT INTO new_table(nom, prenom,email, icq, titre, url) VALUES('$nom','$prenom','$email','$icq','$titre,$url')";
     
     // on insère les informations du formulaire dans la table
     mysqli_query($db,$sql) or die('Erreur SQL !'.$sql.'<br>'.mysqli_error($db));
