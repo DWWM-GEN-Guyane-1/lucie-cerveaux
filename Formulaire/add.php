@@ -29,21 +29,18 @@ else
     {
 
        // connexion à la base
-$db = mysql_connect("localhost","root","")  or die('Erreur de connexion '.mysql_error());
-// sélection de la base  
+$db = mysqli_connect("localhost","root","","formulaire")  or die('Erreur de connexion '.mysqli_error($db));
 
- echo "test";
-   mysql_select_db('Test',$db)  or die('Erreur de selection '.mysql_error());
     
     // on écrit la requête sql
-    $sql = "INSERT INTO new_table(id, nom, prenom,email, icq, titre, url) VALUES('','$nom','$prenom','$email','$icq','$titre','$url')";
+    $sql = "INSERT INTO new_table(nom, prenom,email, icq, titre, url) VALUES('$nom','$prenom','$email','$icq','$titre','$url')";
     
     // on insère les informations du formulaire dans la table
-    mysql_query($sql) or die('Erreur SQL !'.$sql.'<br>'.mysql_error());
+    mysqli_query($db,$sql) or die('Erreur SQL !'.$sql.'<br>'.mysqli_error($db));
 
     // on affiche le résultat pour le visiteur
     echo 'Vos infos on été ajoutées.';
 
-    mysql_close();  // on ferme la connexion
+    mysqli_close($db);  // on ferme la connexion
     } 
 ?>
