@@ -1,10 +1,27 @@
 <html>
 <form method="POST" action="add.php">
 <center>
-<input type="text" name="nom" size="20" value="nom" maxlength="35"> <input type="text" name="prenom" size="20" value="prenom" maxlength="35"><br>
-<input type="text" name="email" size="20" value="email" maxlength="70"> <input type="text" name="icq" size="20" value="icq" maxlength="11"><br>
-<input type="text" name="titre" size="20" value="titre du site" maxlength="70"> <input type="text" name="url" size="20" value="url du site" maxlength="255"><br>
+<label >Nom </label><input type="text" name="nom"  required pattern="[A-Za-z]+"    maxlength="10"><br><br>
+<label>Prénom </label><input type="text" name="prenom" required pattern="[A-Za-z]+"  maxlength="10"><br><br>
+<label>Email </label><input type="email" name="email"   maxlength="50" required> <br><br>
+<label>Titre </label><input type="text" name="titre"   maxlength="25" required> <br><br>
+<label>Url</label><input type="url" name="url" maxlength="500" required><br><br>
 <input type="submit" value="Envoyer" name="envoyer">
 </center>
 </form>
+
+
+<style>
+:valid {
+   box-shadow: 0 0 2px 1px green;
+}
+
+label{
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+
+</style>
 </html>
